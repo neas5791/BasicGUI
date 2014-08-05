@@ -6,7 +6,6 @@
 
 package basicgui;
 
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import javax.swing.JFrame;
 
@@ -16,9 +15,10 @@ import javax.swing.JFrame;
  */
 public class MyFrame  extends JFrame {
     public MyFrame(){
-        this.setLayout(new GridLayout(2,1));
-        setTitle("Frame with components");
-        setSize(400,300);
-        setLocationRelativeTo(null);
+        this.setLayout(new GridLayout(1,2));
+        this.setTitle("The Microwave");
+        this.setSize(600,300);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 }

@@ -33,11 +33,11 @@ public class BasicGUI {
         JButton fourthBtn = new JButton("Fourth Button");
         
         
-        p1.add(firstBtn);
-        p1.add(secondBtn);
+        //p1.add(firstBtn);
+        //p1.add(secondBtn);
         
-        p2.add(thirdBtn);
-        p2.add(fourthBtn);
+        //p2.add(thirdBtn);
+        //p2.add(fourthBtn);
         
         myframe.add(p1);
         myframe.add(p2);

@@ -6,10 +6,9 @@
 
 package basicgui;
 
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-
+import java.awt.BorderLayout;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 /**
  *
@@ -17,7 +16,10 @@ import javax.swing.JPanel;
  */
 public class P2 extends JPanel {
     public P2(){
-        this.setLayout((new FlowLayout()));
-        //this.setLayout(new GridLayout(1,2));
-    }
+        //this.setLayout((new FlowLayout()));
+        this.setLayout(new BorderLayout());
+        this.add(new JTextField(),BorderLayout.NORTH );
+        this.add(new Buttons(), BorderLayout.CENTER);
+        
+        }
 }

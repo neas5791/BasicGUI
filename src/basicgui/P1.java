@@ -6,10 +6,12 @@
 
 package basicgui;
 
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-
+import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.border.LineBorder;
 
 /**
  *
@@ -17,6 +19,8 @@ import javax.swing.JPanel;
  */
 public class P1 extends JPanel{
     public P1(){
-        this.setLayout(new FlowLayout());
+        this.setLayout(new BorderLayout());
+        this.add(new JLabel(new ImageIcon("pizza.jpg")));
+        this.setBorder(new LineBorder(Color.BLACK,10,true));
     }
 }
