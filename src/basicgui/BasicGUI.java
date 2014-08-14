@@ -18,7 +18,7 @@ public class BasicGUI {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         MyFrame myframe = new MyFrame();
         P1 p1 = new P1();
         P2 p2 = new P2();
